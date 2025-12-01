@@ -1,0 +1,594 @@
+Tue Aug 12 01:23:02 CDT 2025
+MaxEnt version 3.4.3
+Reading file background
+readGrid: max memory 15271460864, total allocated 591921152, free 305520552, used 286400600, increment 52409896
+Reading samples from presence
+Read samples: max memory 15271460864, total allocated 597164032, free 395890112, used 201273920, increment -85126680
+Adding samples to background in feature space
+Command line used:  autorun -e H:/Crane_SDMs/Anthropoides_virgo/winter/background -o H:/Crane_SDMs/Anthropoides_virgo/winter -s H:/Crane_SDMs/Anthropoides_virgo/winter/presence -z noremoveDuplicates noautofeature jackknife=TRUE responsecurves=TRUE threads=16 nohinge noproduct threshold betamultiplier=5
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=H:/Crane_SDMs/Anthropoides_virgo/winter samplesfile=H:/Crane_SDMs/Anthropoides_virgo/winter/presence environmentallayers=H:/Crane_SDMs/Anthropoides_virgo/winter/background noremoveduplicates betamultiplier=5.0 noproduct threshold nohinge autorun novisible noautofeature threads=16 noprefixes
+Species: species
+Layers: CHELSA_bio13_1981-2010_V.2.1 CHELSA_bio14_1981-2010_V.2.1 CHELSA_bio15_1981-2010_V.2.1 CHELSA_bio18_1981-2010_V.2.1 CHELSA_bio19_1981-2010_V.2.1 CHELSA_bio2_1981-2010_V.2.1 CHELSA_bio3_1981-2010_V.2.1 CHELSA_bio5_1981-2010_V.2.1 CHELSA_bio8_1981-2010_V.2.1 CHELSA_gsl_1981-2010_V.2.1 CHELSA_hurs_mean_1981-2010_V.2.1 CHELSA_hurs_range_1981-2010_V.2.1 CHELSA_scd_1981-2010_V.2.1 wc2.1_30s_elev
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: H:/Crane_SDMs/Anthropoides_virgo/winter
+samplesfile: H:/Crane_SDMs/Anthropoides_virgo/winter/presence
+environmentallayers: H:/Crane_SDMs/Anthropoides_virgo/winter/background
+removeduplicates: false
+betamultiplier: 5.0
+product: false
+threshold: true
+hinge: false
+autorun: true
+visible: false
+autofeature: false
+threads: 16
+prefixes: false
+
+getSamples: max memory 15271460864, total allocated 597164032, free 391134560, used 206029472, increment 4755552
+Making features
+makeFeatures: max memory 15271460864, total allocated 597164032, free 389176376, used 207987656, increment 1958184
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 597164032, free 382739616, used 214424416, increment 6436760
+linearPredictor: max memory 15271460864, total allocated 597164032, free 382739616, used 214424416, increment 0
+FeaturedSpace: max memory 15271460864, total allocated 597164032, free 382739616, used 214424416, increment 0
+Sequential: max memory 15271460864, total allocated 597164032, free 382739616, used 214424416, increment 0
+Initial loss: 8.95789673495042
+500: time = 0.885000 loss = 7.421136
+Resulting gain: 1.5367604017951573
+Time since start: 1.024
+Projecting...
+Writing file H:\Crane_SDMs\Anthropoides_virgo\winter\species.csv
+species response curves
+Response curve: only CHELSA_bio13_1981-2010_V.2.1
+Response curve: only CHELSA_bio14_1981-2010_V.2.1
+Response curve: only CHELSA_bio15_1981-2010_V.2.1
+Response curve: only CHELSA_bio18_1981-2010_V.2.1
+Response curve: only CHELSA_bio19_1981-2010_V.2.1
+Response curve: only CHELSA_bio2_1981-2010_V.2.1
+Response curve: only CHELSA_bio3_1981-2010_V.2.1
+Response curve: only CHELSA_bio5_1981-2010_V.2.1
+Response curve: only CHELSA_bio8_1981-2010_V.2.1
+Response curve: only CHELSA_gsl_1981-2010_V.2.1
+Response curve: only CHELSA_hurs_mean_1981-2010_V.2.1
+Response curve: only CHELSA_hurs_range_1981-2010_V.2.1
+Response curve: only CHELSA_scd_1981-2010_V.2.1
+Response curve: only wc2.1_30s_elev
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+makeFeatures: max memory 15271460864, total allocated 591921152, free 435981448, used 155939704, increment -58484712
+species CHELSA_bio15_1981-2010_V.2.1: 
+Making features
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+makeFeatures: max memory 15271460864, total allocated 591921152, free 435006168, used 156914984, increment 975280
+species CHELSA_bio14_1981-2010_V.2.1: 
+makeFeatures: max memory 15271460864, total allocated 591921152, free 435006168, used 156914984, increment 0
+species CHELSA_bio18_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+Making features
+Making features
+Making features
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+makeFeatures: max memory 15271460864, total allocated 591921152, free 433055608, used 158865544, increment 1950560
+species CHELSA_scd_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 487640
+species CHELSA_hurs_mean_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 0
+species CHELSA_bio8_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 0
+species CHELSA_bio19_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 0
+species wc2.1_30s_elev: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 0
+species CHELSA_bio3_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 0
+species CHELSA_hurs_range_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+makeFeatures: max memory 15271460864, total allocated 591921152, free 433055608, used 158865544, increment 1950560
+species CHELSA_bio5_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 433543248, used 158377904, increment 1462920
+species CHELSA_bio2_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 432567968, used 159353184, increment 975280
+species CHELSA_bio13_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 591921152, free 434030888, used 157890264, increment 975280
+species CHELSA_gsl_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 431854472, used 160066680, increment 2176416
+linearPredictor: max memory 15271460864, total allocated 591921152, free 431792304, used 160128848, increment 62168
+Density: max memory 15271460864, total allocated 591921152, free 431792304, used 160128848, increment 0
+linearPredictor: max memory 15271460864, total allocated 591921152, free 431792304, used 160128848, increment 0
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 431730136, used 160191016, increment 62168
+linearPredictor: max memory 15271460864, total allocated 591921152, free 431667968, used 160253184, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 431171616, used 160749536, increment 496352
+340 samples
+Sequential: max memory 15271460864, total allocated 591921152, free 431171616, used 160749536, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 431171616, used 160749536, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 431171616, used 160749536, increment 0
+Initial loss: 8.95789673495042
+Density: max memory 15271460864, total allocated 591921152, free 431171616, used 160749536, increment 0
+linearPredictor: max memory 15271460864, total allocated 591921152, free 431171616, used 160749536, increment 0
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 430621864, used 161299288, increment 549752
+linearPredictor: max memory 15271460864, total allocated 591921152, free 430621864, used 161299288, increment 0
+340 samples
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 430544392, used 161376760, increment 77472
+Sequential: max memory 15271460864, total allocated 591921152, free 430544392, used 161376760, increment 0
+Initial loss: 8.95789673495042
+Density: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 549752
+linearPredictor: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 429994640, used 161926512, increment 0
+Initial loss: 8.95789673495042
+340 samples
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 429307416, used 162613736, increment 687224
+linearPredictor: max memory 15271460864, total allocated 591921152, free 429183080, used 162738072, increment 124336
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 428685024, used 163236128, increment 498056
+linearPredictor: max memory 15271460864, total allocated 591921152, free 428685024, used 163236128, increment 0
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 429183080, used 162738072, increment 124336
+linearPredictor: max memory 15271460864, total allocated 591921152, free 428603112, used 163318040, increment 579968
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 428685024, used 163236128, increment 0
+340 samples
+Sequential: max memory 15271460864, total allocated 591921152, free 428095784, used 163825368, increment 589240
+Initial loss: 8.95789673495042
+Density: max memory 15271460864, total allocated 591921152, free 428033616, used 163887536, increment 62168
+linearPredictor: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 549752
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+Density: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+linearPredictor: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+Initial loss: 8.95789673495042
+340 samples
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 427483864, used 164437288, increment 0
+Initial loss: 8.95789673495042
+Density: max memory 15271460864, total allocated 591921152, free 427421696, used 164499456, increment 62168
+linearPredictor: max memory 15271460864, total allocated 591921152, free 427359528, used 164561624, increment 62168
+340 samples
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 427359528, used 164561624, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 427359528, used 164561624, increment 0
+Initial loss: 8.95789673495042
+Density: max memory 15271460864, total allocated 591921152, free 427297360, used 164623792, increment 62168
+linearPredictor: max memory 15271460864, total allocated 591921152, free 427235192, used 164685960, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 427235192, used 164685960, increment 0
+Sequential: max memory 15271460864, total allocated 591921152, free 427235192, used 164685960, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 426747488, used 165173664, increment 487704
+Sequential: max memory 15271460864, total allocated 591921152, free 426747488, used 165173664, increment 0
+Initial loss: 8.95789673495042
+340 samples
+Density: max memory 15271460864, total allocated 591921152, free 426197688, used 165723464, increment 549800
+linearPredictor: max memory 15271460864, total allocated 591921152, free 426135520, used 165785632, increment 62168
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 591921152, free 426135520, used 165785632, increment 1348344
+Sequential: max memory 15271460864, total allocated 591921152, free 426135520, used 165785632, increment 0
+Initial loss: 8.95789673495042
+100: time = 0.033000 loss = 7.750996
+Resulting gain: 1.206901003508464
+species response curves
+140: time = 0.035000 loss = 8.117309
+Resulting gain: 0.8405876080665244
+species response curves
+100: time = 0.046000 loss = 8.809387
+Resulting gain: 0.14850926841406498
+species response curves
+80: time = 0.048000 loss = 8.735293
+Resulting gain: 0.22260410338634173
+species response curves
+100: time = 0.049000 loss = 8.519884
+Resulting gain: 0.43801302657296404
+species response curves
+160: time = 0.050000 loss = 8.682496
+Resulting gain: 0.2754004021746326
+species response curves
+120: time = 0.054000 loss = 8.808434
+Resulting gain: 0.14946247922106792
+140: time = 0.056000 loss = 8.364951
+Resulting gain: 0.5929453211102302
+species response curves
+species response curves
+100: time = 0.057000 loss = 8.768248
+Resulting gain: 0.18964878419860653
+species response curves
+100: time = 0.058000 loss = 8.651136
+Resulting gain: 0.30676102615080936
+species response curves
+80: time = 0.067000 loss = 8.746012
+Resulting gain: 0.2118848296503515
+species response curves
+120: time = 0.072000 loss = 7.984946
+Resulting gain: 0.9729511859843045
+species response curves
+140: time = 0.090000 loss = 8.804877
+Resulting gain: 0.15301955822435787
+species response curves
+140: time = 0.096000 loss = 8.436011
+Resulting gain: 0.5218860613298801
+species response curves
+Jackknife: leave CHELSA_bio13_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio14_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio15_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio18_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio19_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio2_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio3_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio5_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_bio8_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_gsl_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_hurs_mean_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_hurs_range_1981-2010_V.2.1 out
+Jackknife: leave CHELSA_scd_1981-2010_V.2.1 out
+Jackknife: leave wc2.1_30s_elev out
+Jackknife: only CHELSA_bio13_1981-2010_V.2.1
+Jackknife: only CHELSA_bio14_1981-2010_V.2.1
+Jackknife: only CHELSA_bio15_1981-2010_V.2.1
+Jackknife: only CHELSA_bio18_1981-2010_V.2.1
+Jackknife: only CHELSA_bio19_1981-2010_V.2.1
+Jackknife: only CHELSA_bio2_1981-2010_V.2.1
+Jackknife: only CHELSA_bio3_1981-2010_V.2.1
+Jackknife: only CHELSA_bio5_1981-2010_V.2.1
+Jackknife: only CHELSA_bio8_1981-2010_V.2.1
+Jackknife: only CHELSA_gsl_1981-2010_V.2.1
+Jackknife: only CHELSA_hurs_mean_1981-2010_V.2.1
+Jackknife: only CHELSA_hurs_range_1981-2010_V.2.1
+Jackknife: only CHELSA_scd_1981-2010_V.2.1
+Jackknife: only wc2.1_30s_elev
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 393198392, used 160974024, increment -4811608
+species CHELSA_bio18_1981-2010_V.2.1: 
+makeFeatures: max memory 15271460864, total allocated 554172416, free 393198392, used 160974024, increment -4811608
+species CHELSA_bio19_1981-2010_V.2.1: 
+makeFeatures: max memory 15271460864, total allocated 554172416, free 393136224, used 161036192, increment 62168
+species CHELSA_bio15_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 390594000, used 163578416, increment 2542224
+species CHELSA_bio2_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 390303928, used 163868488, increment 290072
+species CHELSA_bio3_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 389704984, used 164467432, increment 598944
+species CHELSA_bio5_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 389642816, used 164529600, increment 62168
+species CHELSA_bio8_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 388429248, used 165743168, increment 1213568
+makeFeatures: max memory 15271460864, total allocated 554172416, free 388429248, used 165743168, increment 1213568
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 388242744, used 165929672, increment 1400072
+species CHELSA_bio13_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 380616064, used 173556352, increment 7626680
+species CHELSA_hurs_mean_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+species CHELSA_gsl_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 379478304, used 174694112, increment 8950944
+species CHELSA_hurs_range_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 378758552, used 175413864, increment 719752
+linearPredictor: max memory 15271460864, total allocated 554172416, free 378696384, used 175476032, increment 62168
+makeFeatures: max memory 15271460864, total allocated 554172416, free 376305504, used 177866912, increment 2390880
+species CHELSA_scd_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+makeFeatures: max memory 15271460864, total allocated 554172416, free 375892104, used 178280312, increment 413400
+species CHELSA_bio13_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+species CHELSA_bio14_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+Making features
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 375892104, used 178280312, increment 413400
+Sequential: max memory 15271460864, total allocated 554172416, free 375088624, used 179083792, increment 803480
+Initial loss: 8.95789673495042
+makeFeatures: max memory 15271460864, total allocated 554172416, free 370620600, used 183551816, increment 4468024
+species wc2.1_30s_elev: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 369557360, used 184615056, increment 1063240
+linearPredictor: max memory 15271460864, total allocated 554172416, free 369495192, used 184677224, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 369399744, used 184772672, increment 95448
+Sequential: max memory 15271460864, total allocated 554172416, free 369399744, used 184772672, increment 0
+Initial loss: 8.95789673495042
+makeFeatures: max memory 15271460864, total allocated 554172416, free 362660192, used 191512224, increment 6739552
+species CHELSA_bio14_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 322680944, used 231491472, increment 39979248
+linearPredictor: max memory 15271460864, total allocated 554172416, free 322618776, used 231553640, increment 62168
+Density: max memory 15271460864, total allocated 554172416, free 322556608, used 231615808, increment 62168
+linearPredictor: max memory 15271460864, total allocated 554172416, free 322494440, used 231677976, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 322494440, used 231677976, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 322494440, used 231677976, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 321780680, used 232391736, increment 713760
+Sequential: max memory 15271460864, total allocated 554172416, free 321780680, used 232391736, increment 0
+Initial loss: 8.95789673495042
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 317888000, used 236284416, increment 3892680
+linearPredictor: max memory 15271460864, total allocated 554172416, free 317825832, used 236346584, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 317793376, used 236379040, increment 32456
+Sequential: max memory 15271460864, total allocated 554172416, free 317793376, used 236379040, increment 0
+Initial loss: 8.95789673495042
+340 samples
+340 samples
+340 samples
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 316579320, used 237593096, increment 1214056
+linearPredictor: max memory 15271460864, total allocated 554172416, free 316517152, used 237655264, increment 62168
+Density: max memory 15271460864, total allocated 554172416, free 315755408, used 238417008, increment 761744
+linearPredictor: max memory 15271460864, total allocated 554172416, free 315368184, used 238804232, increment 387224
+Density: max memory 15271460864, total allocated 554172416, free 315368184, used 238804232, increment 0
+linearPredictor: max memory 15271460864, total allocated 554172416, free 315368184, used 238804232, increment 0
+Density: max memory 15271460864, total allocated 554172416, free 315306016, used 238866400, increment 62168
+linearPredictor: max memory 15271460864, total allocated 554172416, free 314955672, used 239216744, increment 350344
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 314955672, used 239216744, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 314955672, used 239216744, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 314666640, used 239505776, increment 289032
+Sequential: max memory 15271460864, total allocated 554172416, free 314666640, used 239505776, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 314666640, used 239505776, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 314666640, used 239505776, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 314377928, used 239794488, increment 288712
+Sequential: max memory 15271460864, total allocated 554172416, free 314377928, used 239794488, increment 0
+Initial loss: 8.95789673495042
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 311776672, used 242395744, increment 2601256
+linearPredictor: max memory 15271460864, total allocated 554172416, free 311714504, used 242457912, increment 62168
+340 samples
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 311714504, used 242457912, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 311714504, used 242457912, increment 0
+Initial loss: 8.95789673495042
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 311632968, used 242539448, increment 81536
+linearPredictor: max memory 15271460864, total allocated 554172416, free 311570800, used 242601616, increment 62168
+Density: max memory 15271460864, total allocated 554172416, free 311508632, used 242663784, increment 62168
+linearPredictor: max memory 15271460864, total allocated 554172416, free 311446464, used 242725952, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 311043280, used 243129136, increment 403184
+Sequential: max memory 15271460864, total allocated 554172416, free 311043280, used 243129136, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 310654040, used 243518376, increment 389240
+Sequential: max memory 15271460864, total allocated 554172416, free 310654040, used 243518376, increment 0
+Initial loss: 8.95789673495042
+340 samples
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 308489888, used 245682528, increment 2164152
+linearPredictor: max memory 15271460864, total allocated 554172416, free 308489888, used 245682528, increment 0
+340 samples
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 308470520, used 245701896, increment 19368
+Sequential: max memory 15271460864, total allocated 554172416, free 308470520, used 245701896, increment 0
+Initial loss: 8.95789673495042
+Density: max memory 15271460864, total allocated 554172416, free 308408352, used 245764064, increment 62168
+linearPredictor: max memory 15271460864, total allocated 554172416, free 308346184, used 245826232, increment 62168
+Density: max memory 15271460864, total allocated 554172416, free 307997400, used 246175016, increment 348784
+linearPredictor: max memory 15271460864, total allocated 554172416, free 307997400, used 246175016, increment 0
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 307997400, used 246175016, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 307997400, used 246175016, increment 0
+Initial loss: 8.95789673495042
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 307997400, used 246175016, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 307997400, used 246175016, increment 0
+Initial loss: 8.95789673495042
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 307647536, used 246524880, increment 349864
+linearPredictor: max memory 15271460864, total allocated 554172416, free 307585368, used 246587048, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 307585368, used 246587048, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 307585368, used 246587048, increment 0
+Initial loss: 8.95789673495042
+140: time = 0.044000 loss = 8.364951
+Res.gain: 0.5929453211102302
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 307585368, used 246587048, increment 0
+species CHELSA_bio15_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 307201872, used 246970544, increment 383496
+linearPredictor: max memory 15271460864, total allocated 554172416, free 307139704, used 247032712, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 307139704, used 247032712, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 307139704, used 247032712, increment 0
+Initial loss: 8.95789673495042
+80: time = 0.073000 loss = 8.735293
+Res.gain: 0.22260410338634173
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 306564328, used 247608088, increment 575376
+species CHELSA_bio18_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 306111528, used 248060888, increment 452800
+linearPredictor: max memory 15271460864, total allocated 554172416, free 306049360, used 248123056, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 306049360, used 248123056, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 306049360, used 248123056, increment 0
+Initial loss: 8.95789673495042
+100: time = 0.034000 loss = 7.750996
+Res.gain: 1.206901003508464
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 305760216, used 248412200, increment 289144
+species CHELSA_bio19_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 305087864, used 249084552, increment 672352
+linearPredictor: max memory 15271460864, total allocated 554172416, free 305087864, used 249084552, increment 0
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 305087864, used 249084552, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 305087864, used 249084552, increment 0
+Initial loss: 8.95789673495042
+120: time = 0.045000 loss = 7.984946
+Res.gain: 0.9729511859843045
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 303932984, used 250239432, increment 1154880
+species CHELSA_bio2_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 303517032, used 250655384, increment 415952
+linearPredictor: max memory 15271460864, total allocated 554172416, free 303454864, used 250717552, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 303454864, used 250717552, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 303454864, used 250717552, increment 0
+Initial loss: 8.95789673495042
+140: time = 0.037000 loss = 8.804877
+Res.gain: 0.15301955822435787
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 303165896, used 251006520, increment 288968
+species CHELSA_bio3_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 302814856, used 251357560, increment 351040
+linearPredictor: max memory 15271460864, total allocated 554172416, free 302752688, used 251419728, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 302752688, used 251419728, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 302752688, used 251419728, increment 0
+Initial loss: 8.95789673495042
+100: time = 0.123000 loss = 8.768248
+Res.gain: 0.18964878419860653
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 302463808, used 251708608, increment 288880
+species CHELSA_bio5_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 302142576, used 252029840, increment 321232
+linearPredictor: max memory 15271460864, total allocated 554172416, free 301791648, used 252380768, increment 350928
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 301791648, used 252380768, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 301791648, used 252380768, increment 0
+Initial loss: 8.95789673495042
+160: time = 0.080000 loss = 8.682496
+Res.gain: 0.2754004021746326
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 301791648, used 252380768, increment 0
+species CHELSA_bio8_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 301378440, used 252793976, increment 413208
+linearPredictor: max memory 15271460864, total allocated 554172416, free 301316272, used 252856144, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 301316272, used 252856144, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 301316272, used 252856144, increment 0
+Initial loss: 8.95789673495042
+Time since start: 2.034
+100: time = 0.066000 loss = 8.519884
+Res.gain: 0.43801302657296404
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 301028272, used 253144144, increment 288000
+species CHELSA_gsl_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 300644872, used 253527544, increment 383400
+linearPredictor: max memory 15271460864, total allocated 554172416, free 300582704, used 253589712, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 300582704, used 253589712, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 300582704, used 253589712, increment 0
+Initial loss: 8.95789673495042
+120: time = 0.060000 loss = 8.808434
+Res.gain: 0.14946247922106792
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 300005000, used 254167416, increment 577704
+species CHELSA_hurs_mean_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 299612216, used 254560200, increment 392784
+linearPredictor: max memory 15271460864, total allocated 554172416, free 299550048, used 254622368, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 299550048, used 254622368, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 299550048, used 254622368, increment 0
+Initial loss: 8.95789673495042
+140: time = 0.093000 loss = 8.117309
+Res.gain: 0.8405876080665244
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 299550048, used 254622368, increment 0
+species CHELSA_hurs_range_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 298920120, used 255252296, increment 629928
+linearPredictor: max memory 15271460864, total allocated 554172416, free 298920120, used 255252296, increment 0
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 298920120, used 255252296, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 298920120, used 255252296, increment 0
+Initial loss: 8.95789673495042
+80: time = 0.069000 loss = 8.746012
+Res.gain: 0.2118848296503515
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 298344464, used 255827952, increment 575656
+species CHELSA_scd_1981-2010_V.2.1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 298055688, used 256116728, increment 288776
+linearPredictor: max memory 15271460864, total allocated 554172416, free 297993520, used 256178896, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 297993520, used 256178896, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 297993520, used 256178896, increment 0
+Initial loss: 8.95789673495042
+100: time = 0.093000 loss = 8.809387
+Res.gain: 0.14850926841406498
+Making features
+makeFeatures: max memory 15271460864, total allocated 554172416, free 297068984, used 257103432, increment 924536
+species wc2.1_30s_elev: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+340 samples
+Density: max memory 15271460864, total allocated 554172416, free 296584584, used 257587832, increment 484400
+linearPredictor: max memory 15271460864, total allocated 554172416, free 296522416, used 257650000, increment 62168
+FeaturedSpace: max memory 15271460864, total allocated 554172416, free 296522416, used 257650000, increment 0
+Sequential: max memory 15271460864, total allocated 554172416, free 296522416, used 257650000, increment 0
+Initial loss: 8.95789673495042
+100: time = 0.058000 loss = 8.651136
+Res.gain: 0.30676102615080936
+140: time = 0.117000 loss = 8.436011
+Res.gain: 0.5218860613298801
+360: time = 0.792000 loss = 7.492415
+360: time = 0.861000 loss = 7.425333
+400: time = 0.912000 loss = 7.441558
+480: time = 0.963000 loss = 7.427674
+500: time = 1.041000 loss = 7.433389
+500: time = 1.073000 loss = 7.421337
+500: time = 1.095000 loss = 7.421176
+500: time = 1.094000 loss = 7.425176
+500: time = 1.099000 loss = 7.421865
+500: time = 1.103000 loss = 7.462228
+500: time = 1.113000 loss = 7.421307
+480: time = 1.126000 loss = 7.428189
+500: time = 1.148000 loss = 7.426090
+500: time = 1.230000 loss = 7.423071
+Time since start: 3.07
+Ending

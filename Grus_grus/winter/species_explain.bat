@@ -1,0 +1,2 @@
+java -mx14564m -cp "/C:/Users/Conrad/AppData/Local/R/win-library/4.5/predicts/java/maxent.jar;C:/Users/Conrad/AppData/Local/R/win-library/4.5/rJava/java/boot;C:\Users\Conrad\AppData\Local\R\win-library\4.5\predicts\java;C:\Users\Conrad\AppData\Local\R\win-library\4.5\predicts\java\dismo.jar;C:\Users\Conrad\AppData\Local\R\win-library\4.5\predicts\java\maxent.jar" density.Explain -l H:\Crane_SDMs\Grus_grus\winter\species.lambdas -c H:\Crane_SDMs\Grus_grus\winter\species.asc H:\Crane_SDMs\Grus_grus\winter\background
+@if errorlevel 1 pause
