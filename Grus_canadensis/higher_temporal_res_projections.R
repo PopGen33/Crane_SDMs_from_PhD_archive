@@ -173,7 +173,7 @@ world_boundaries <- terra::crop(world_boundaries, explanatory_vars_2.5min_SSP1$`
 state_boundaries <- gadm(country = world_boundaries$NAME_0, level = 1, resolution = 1, path = "H:/geodata/")
 
 # We're only concerned with projection, so can rm() the higher res rasters
-rm(bioclim_rasters_SSP1, bioclim_rasters_SSP5, explanatory_vars_SSP1, explanatory_vars_SSP5)
+# rm(bioclim_rasters_SSP1, bioclim_rasters_SSP5, explanatory_vars_SSP1, explanatory_vars_SSP5)
 
 # Load old, current projection rasters for reprojecting at higher res (and fix the broken cropping!)
 explanatory_vars_2.5min <- rast(paste0("H:/tempRenderingRasters2.5min/", gsub(" ", "_", speciesForModel), ".tif"))
@@ -191,6 +191,9 @@ names(explanatory_vars_2.5min_SSP5) <- gsub(pattern = "_gfdl-esm4_ssp[0-9]{3}", 
 maxent_data_summer_predictions_SSP1 <- predict(explanatory_vars_2.5min_SSP1, maxent_data_summer, na.rm = TRUE, args = c("threads=32"))
 maxent_data_summer_predictions_SSP5 <- predict(explanatory_vars_2.5min_SSP5, maxent_data_summer, na.rm = TRUE, args = c("threads=32"))
 maxent_data_summer_predictions_current <- predict(explanatory_vars_2.5min, maxent_data_summer, na.rm = TRUE, args = c("threads=32"))
+
+# Maxent Winter Projection
+maxent_data_winter_predictions_current <- predict(explanatory_vars_2.5min, maxent_data_winter, na.rm = TRUE, args = c("threads=32"))
 
 # Render and Save Maxent Projections
 ggplot() +
@@ -237,7 +240,22 @@ ggplot() +
     theme(plot.background = element_rect(color = "white"),
           panel.grid.major = element_line(linewidth = 0))
 
-ggsave(file.path(filePath_proj, paste0("MaxEnt_Model_", gsub(" ", "_", speciesForModel), "_current.png")), width = 9, height = 5.75, units = "in", dpi = 400)
+ggsave(file.path(filePath_proj, paste0("MaxEnt_Model_", gsub(" ", "_", speciesForModel), "_summer_current.png")), width = 9, height = 5.75, units = "in", dpi = 400)
+
+ggplot() +
+    geom_spatraster(data = maxent_data_winter_predictions_current, na.rm = TRUE) + 
+    scale_y_continuous(limits = c(ext(maxent_data_winter_predictions_current)$ymin, ext(maxent_data_winter_predictions_current)$ymax), expand = c(0,0)) + 
+    scale_x_continuous(limits = c(ext(maxent_data_winter_predictions_current)$xmin, ext(maxent_data_winter_predictions_current)$xmax), expand = c(0,0)) + 
+    scale_fill_whitebox_c(palette = "viridi", name = "Suitability", limits = c(0,1)) +
+    geom_spatvector(data = state_boundaries, fill = "transparent", color = "grey", linewidth = 0.1) +
+    geom_spatvector(data = world_boundaries, fill = "transparent", color = "black", linewidth = 0.5) +
+    #geom_spatvector(data = as_spatvector(occs, crs = "EPSG:4326"), color = "black", size = 0.2) +
+    #annotation_scale() + # Removed this scale bar because it's somewhat misleading in this projection 
+    theme_clean() + 
+    theme(plot.background = element_rect(color = "white"),
+          panel.grid.major = element_line(linewidth = 0))
+
+ggsave(file.path(filePath_proj, paste0("MaxEnt_Model_", gsub(" ", "_", speciesForModel), "_winter_current.png")), width = 9, height = 5.75, units = "in", dpi = 400)
 
 
 # Neural Network Projection
